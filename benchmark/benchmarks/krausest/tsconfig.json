@@ -24,7 +24,8 @@
       "@/components/*": ["./lib/components/*"],
       "@/utils/*": ["./lib/utils/*"],
       "@glimmer-workspace/benchmark-env": ["../../../packages/@glimmer-workspace/benchmark-env"],
-      "@glimmer/runtime": ["../../../packages/@glimmer/runtime"]
+      "@glimmer/runtime": ["../../../packages/@glimmer/runtime"],
+      "@glimmer/syntax": ["../../../packages/@glimmer/syntax"]
     }
   },
   "include": ["./lib/", "./browser.js"],

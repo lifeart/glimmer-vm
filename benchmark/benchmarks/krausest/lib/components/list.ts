@@ -16,7 +16,7 @@ export class ListComponent {
   nodes: Node[] = [];
   destructors: Array<() => void> = [];
   index = 0;
-  constructor({ app, items }: { app: Application; items: Item[] }, outlet: HTMLElement) {
+  constructor({ app, items, itemComponent }: { app: Application; items: Item[], itemComponent: any }, outlet: HTMLElement) {
     const table = createTable();
     this.nodes = [table];
     this.app = app;

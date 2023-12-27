@@ -10,6 +10,7 @@
   "dependencies": {
     "@glimmer-workspace/benchmark-env": "workspace:^",
     "@glimmer/compiler": "workspace:^",
+    "@glimmer/syntax": "0.87.1",
     "@glimmer/interfaces": "workspace:^",
     "@simple-dom/document": "^1.4.0",
     "@simple-dom/serializer": "^1.4.0",
